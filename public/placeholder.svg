@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- Ocean background -->
+  <rect width="32" height="32" rx="6" fill="url(#oceanGradient)"/>
+  
+  <!-- Wave pattern -->
+  <path d="M0 20c4-2 8-2 12 0s8 2 12 0 8-2 12 0v12H0V20z" fill="url(#waveGradient)" opacity="0.8"/>
+  <path d="M0 24c4-1.5 8-1.5 12 0s8 1.5 12 0v8H0v-8z" fill="url(#waveGradient2)" opacity="0.6"/>
+  
+  <!-- Sea turtle -->
+  <ellipse cx="16" cy="14" rx="8" ry="5" fill="url(#turtleGradient)"/>
+  <ellipse cx="16" cy="12" rx="6" ry="3" fill="url(#turtleShell)"/>
+  
+  <!-- Turtle head -->
+  <circle cx="16" cy="8" r="2" fill="url(#turtleGradient)"/>
+  
+  <!-- Flippers -->
+  <ellipse cx="8" cy="14" rx="2" ry="3" fill="url(#turtleGradient)"/>
+  <ellipse cx="24" cy="14" rx="2" ry="3" fill="url(#turtleGradient)"/>
+  
+  <!-- Eye -->
+  <circle cx="15" cy="7" r="0.5" fill="white"/>
+  
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0284c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a0c4e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7dd3fc;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="turtleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="turtleShell" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a0c4e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#72a8d0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
